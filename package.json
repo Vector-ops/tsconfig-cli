@@ -1,0 +1,25 @@
+{
+	"name": "tsconfig-cli",
+	"version": "1.0.0",
+	"description": "Create a tsconfig.json file",
+	"./exports": "index.js",
+	"type": "module",
+	"node": ">=16",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node src/index.js"
+	},
+	"keywords": [
+		"tsconfig.json",
+		"tsconfig"
+	],
+	"author": "Sumith B H",
+	"license": "ISC",
+	"dependencies": {
+		"inquirer": "^9.2.11"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Vector-ops/tsconfig-cli.git"
+	}
+}
